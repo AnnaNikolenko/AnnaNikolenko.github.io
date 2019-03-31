@@ -1,0 +1,210 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.wrapper {
+		width: 80%;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.box {
+		background-color: blue;
+	}
+
+	.logo > h1 {
+		margin-right: 10px;
+	}
+
+	.text > p {
+		font-size: 22px;
+	}
+
+	.button {
+		margin-top: 20px;
+	}
+
+	.button img {
+   		margin: 10px 0px 0px 5px;
+	}
+
+	#lets_start {
+		font-size: 18px;
+		font-height: 18px;
+	}
+
+	#your_website {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.column_left {
+		width: 40%;
+	}
+
+	.connect_us {
+		line-height: 20px;
+	}
+
+	.icons {
+		margin-top: 5px;
+	}
+
+	.footer_left,
+	.footer_right {
+		float: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.box {
+		background-color: red;
+	}
+
+	.logo_wrapper {
+		float: none;
+	}
+
+	.nav {
+		margin: 35px 0 15px;
+	}
+
+	.text {
+		float: none;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.button {
+		margin-top: 10px;
+		width: 40%;
+	}
+
+	.button img {
+   		width: 35px;
+    	height: 24px;
+	}
+
+	#lets_start {
+		font-size: 14px;
+		font-height: 14px;
+	}
+
+	#your_website {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.box_wrapper {
+		float: none;
+		width: 100%;
+	}
+
+	.column_wrapper {
+		width: 100%;
+		float: none;
+	}
+
+	.column_left {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+
+	.column_left > img {
+		margin-right: 15px;
+	}
+
+	.column_left > h3 {
+		margin: 0;
+	}
+
+	.column_left > p {
+		margin: 5px 0 30px 0;
+	}
+
+	.column_right h3 {
+		margin-top: 0;
+	}
+
+	.footer_wrapper {
+		margin-top: 30px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.box {
+		background-color: green;
+	}
+
+
+	.nav {
+		margin: 21px 0 15px;
+	}
+
+	.nav a {
+		margin-top: 5px;
+		display: block;
+		padding: 10px 15px;
+		border-radius: 10px;
+		background: #e3e3e3;
+	    -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.35);
+		    -moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.35);
+			    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.35);
+        background: -webkit-linear-gradient(#c7c7c7 0%, #ffffff 100%);
+            background: -o-linear-gradient(#c7c7c7 0%, #ffffff 100%);
+                background: linear-gradient(#c7c7c7 0%, #ffffff 100%); 
+                     
+	}
+
+	.nav a:hover {
+		background: #e3e3e3;
+		background: -webkit-linear-gradient(#ffffff 0%, #c7c7c7 100%);
+        	background: -o-linear-gradient(#ffffff 0%, #c7c7c7 100%);
+                background: linear-gradient(#ffffff 0%, #c7c7c7 100%); 
+	}
+
+	.button {
+		width: 70%;
+	}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

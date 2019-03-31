@@ -1,0 +1,15 @@
+﻿.box_wrapper {
+	width: 25%;
+	margin: 0;
+	background: none;
+}
+
+.box {
+	width: 95%;
+	margin: 0 auto;
+	background: #fff;
+	min-height: 340px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
