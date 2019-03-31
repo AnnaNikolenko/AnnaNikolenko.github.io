@@ -1,0 +1,360 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font: 12px/12px Verdana, sans-serif;
+	color: #6e6e6e;
+	background-color: #f2f2f2;
+}
+
+.row {
+	margin: 0;
+}
+
+.col-md-4 {
+	padding-left: 0;
+}
+
+.row_header_top {
+	margin-top: 40px;
+}
+
+h1 {
+	font: 30px/30px Verdana, sans-serif;
+	color: #8e8e8e;
+}
+
+h2 {
+	font: 18px/18px Verdana, sans-serif;
+	color: #7a7a7a;
+}
+
+.title_h1 {
+	float: left;
+	margin-left: 40px;
+}
+
+.slogan {
+	font: 12px/12px Verdana, sans-serif;
+	color: #666;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+/*FORMA BEGIN*/
+
+.search {
+  width: 275px;/*Ширина формы*/
+  float: right;
+  margin-top: 20px;
+  position: relative; /* кнопку отправки будем позиционировать абсолютно, поэтому необходимо это свойство */
+}
+
+.search input {
+  border: none;
+}
+
+/* стили для поля ввода */
+.search .input {
+  width: 100%;   /* растягиваем поле ввода на всю ширину формы */
+  padding: 8px 37px 9px 15px;
+
+  /* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* добавляем внутренние тени */
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+
+  /* закругляем углы */
+  border-radius: 20px;
+  background: #EEE;
+  font: 13px Tahoma, Arial, sans-serif;
+  color: #555;
+  outline: none;
+}
+
+/* меняем оформление поля ввода при фокусе */
+.search .input:focus {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+  background: #E8E8E8;
+  color: #333;
+}
+
+/* оформляем кнопку отправки */
+.search .submit {
+  position: absolute;   /* позиционируем кнопку абсолютно от правого края формы */
+  top: 0;
+  right: 0;
+  width: 37px;
+  height: 100%;   /* растягиваем кнопку на всю высоту формы */
+  cursor: pointer;
+  background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+  opacity: 0.5;  /* добавляем прозрачность кнопке отправки */
+}
+
+/* при наведении курсора меняем прозрачность кнопки отправки */
+.search .submit:hover {
+  opacity: 0.8;
+}
+
+
+/*FORMA END*/
+/*MENU BEGIN*/
+
+nav > ul> li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+nav > ul> li > a {
+	font: italic 12px/12px Verdana, sans-serif;
+	color: #646363;
+	text-decoration: none;
+}
+
+nav > ul> li > a:hover {
+	color: #de004e;
+}
+/*MENU END*/
+/*MAIN CONTAINER BEGIN*/
+
+.new_width_first {
+	width: 60%;
+}
+
+.new_width_second {
+	width: 40%;
+}
+
+.main_container {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+
+/*FRESH NEWS BEGIN*/
+.newspaper {
+	background: url(../img/newspaper.png) no-repeat;
+	margin-left: 20px;
+}
+
+.newspaper > h2 {
+	margin-left: 47px;
+	margin-top: 0;
+}
+
+.prew_and_news {
+	margin-bottom: 5px;
+}
+
+.prew_and_news > img {
+	float: left;
+	margin-right: 20px;
+}
+
+.news {
+	border-bottom: 1px #d7d7d7 dashed;
+	float: left;
+	width: 75%;
+}
+
+.news_text {
+	font: 12px/5px verdana, sans-serif;
+	color: black;
+	padding-top: 5px;
+}
+
+.news_text:hover {
+	color: #de004e;
+}
+
+.news > a {
+	text-decoration: none;
+}
+
+.no_border {
+	border: none;
+}
+
+.date {
+	font: 10px/5px verdana, sans-serif;
+	color: #de004e;
+	padding-bottom: 5px;
+}
+
+/*ТРИ КОЛОНКИ НОВОСТЕЙ*/
+
+.colums_of_news {
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	margin-top: 20px;
+}
+
+.col_news {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.col_news > h3 {
+	font: bold 18px/18px Verdana, sans-serif;
+	color: #555;
+}
+
+.col_news > a {
+	font: italic 10px/10px Verdana, sans-serif;
+	color: #f088ac;
+	margin-bottom: 20px;
+    display: block;
+}
+
+/*ТРИ КОЛОНКИ НОВОСТЕЙ КОНЕЦ*/
+/*ПОСЛЕДНИЕ ФОТОГРАФИИ*/
+
+.camera {
+	background: url(../img/camera.png) 20px no-repeat;
+}
+
+.camera > h2 {
+	margin-left: 60px;
+}
+
+.border {
+	border-bottom: 1px solid #ebebeb;
+}
+
+/*ВИДЕО ГАЛЕРЕЯ*/
+
+.video_library iframe, 
+.video_library object, 
+.video_library embed {
+  width: 270px;
+  height: 215px; 
+}
+
+.video_library {
+  margin-top: 25px;
+}
+
+.item_video {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.video_library iframe:nth-child(3n) {
+   margin-right: 0;
+}
+
+
+/*FOOTER*/
+
+footer {
+	margin-top: 20px;
+}
+
+footer > p {
+	font: 12px/12px Verdana, sans-serif;
+	color: #575656;
+	display: block;
+	float: left;
+}
+
+.social {
+	float: right;
+	margin-bottom: 40px;
+}
+
+.social a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border: 2px solid #222;
+	margin-right: 3px;
+	-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+			 border-radius: 50%;
+}
+
+
+
+.ft_tw {
+	background: #222 url(../img/ft_twitter.png) center no-repeat;
+}
+
+.ft_tw:hover,
+.ic_tw:hover {
+	background: #00aced url(../img/ft_twitter.png) center no-repeat;
+	border: 2px solid #00aced;
+	
+}
+
+.ft_fb {
+	background: #222 url(../img/ft_facebook.png) center no-repeat;
+}
+
+.ft_fb:hover,
+.ic_fb:hover {
+	background: #3b5998 url(../img/ft_facebook.png) center no-repeat;
+	border: 2px solid #3b5998;
+}
+
+.ft_pn {
+	background: #222 url(../img/ft_pinterest.png) center no-repeat;
+}
+
+.ft_pn:hover,
+.ic_pn:hover {
+	background: #cb2028 url(../img/ft_pinterest.png) center no-repeat;
+	border: 2px solid #cb2028;
+}
+
+.ft_gp {
+	background: #222 url(../img/ft_google+.png) center no-repeat;	
+}
+
+.ft_gp:hover {
+	background: #da2713 url(../img/ft_google+.png) center no-repeat;
+	border: 2px solid #da2713;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
